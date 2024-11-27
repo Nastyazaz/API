@@ -14,7 +14,7 @@ import org.junit.jupiter.api.Test;
         .when()
         .get("/demo/accounts")
         .then()
-        .statusCode(200)
+        .statusCode(300)
         .body(matchesJsonSchemaInClasspath("accounts.schema.json"));
         }
         }
